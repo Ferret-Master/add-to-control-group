@@ -1,0 +1,40 @@
+{
+    "context": "client",
+    "version": "1.00",
+    "build": "116982",
+    "date": "2023-07-02",
+    "signature": "not yet implemented",
+    "forum":"",
+    "priority": 100,
+    "description": "Adds keybinds to add units to existing control groups while maintaining selection.",
+    "display_name": "Add to Control Groups",
+    "author": "Ferretmaster",
+    "identifier": "com.pa.ferretmaster.add-to-control-groups",
+  
+    "scenes": {
+        "global_mod_list": [
+            "coui://ui/mods/add_to_group/keybinds.js"
+        ],
+        "live_game": [
+            "coui://ui/main/game/live_game/add_to_groups.js"
+        ]
+    },
+    "signature": "not yet implemented",
+    "searchable": [
+        "add",
+        "unit",
+        "units",
+		"group",
+		"control",
+		"hotkeys",
+		"hotkey",
+		"select",
+		"addition",
+		"modifier",
+        "ui"
+    ],
+    "sort": "Add To Group",
+    "icon": "",
+    "category": ["ui","titans", "in-game"]
+    
+}
